@@ -1,0 +1,16 @@
+1.start_url = 'www.zhipin.com'
+2.首页抓取链接:
+    http://www.zhipin.com/c101010100-p170101  r'zhipin.com/[a-z]\d+'
+    http://www.zhipin.com/c101010100/?query=%E4%BC%A0%E5%AA%92
+    http://www.zhipin.com/job_detail/1415699666.html  r'zhipin.com/job_detail/\d+.html'
+    https://www.zhipin.com/job_detail/  r'zhipin.com/job_detail/$'
+3.列表页抓取链接
+    https://www.zhipin.com/job_detail/1415704300.html r'zhaopin.com/job_detail/\d+.html'
+    https://www.zhipin.com/c101020100/ 选择城市信息不抓
+    https://www.zhipin.com/c101280600-p100120/
+4.字段year:
+    3-5年
+    1年以内
+    经验不限
+    10年以上
+    应届生
